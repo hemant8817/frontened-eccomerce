@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  height: 40px;
+
+}
+.brand{
+  gap: 23px;
+  display: flex;
+}
+.Container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+button{
+  all: unset;
+  padding: 7px;
+  width: 62px;
+   font-size: 20px;
+   border-radius: 10px;
+  background:red;
+  color: white;
+}
+button:hover{
+  background:#c9d4f3;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  font-size: 22px;
+}
+ nav ul{
+  list-style: none;
+  display: flex;
+  gap: 24px;
+
+ }
+ .hero-image img{
+  width: 475px;
+  height: 485px;
+ }  
+.btn{
+  display: flex;
+  height: 2rem;
+}
+ 
+  h1{
+ font-weight: 800;
+ font-size: 98px;
+ line-height: 102px;
+ }
+ p{
+  font-weight: 600px;
+  color: rgb(21, 17, 19);
+ }
+
+ .btn{
+   display: flex;
+   gap: 43px;
+ }
+
+ .shopping p{
+  font-size: 15px;
+  margin-bottom: 9px;
+ }
+
+ .hero-contener{
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+ }
+
+  main{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 55px;
+    
+  }
+
+  .model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .model img {
+     border-radius: 90%;
+  }
+
+  .bugtti{
+    display: flex;
+    padding: 30px;
+  }
+
+   .car{
+    margin-left: 30px;
+   }
